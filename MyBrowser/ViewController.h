@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ViewController.h
 //  testWebView2
 //
 //  Created by hudamin on 15/3/10.
@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface ViewController : UIViewController <UITextFieldDelegate, UIWebViewDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
-
+@property NSString* text;
 
 @end
 

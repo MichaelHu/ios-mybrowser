@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A30CFEA1AB1AE970018E1CA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A30CFE91AB1AE970018E1CA /* Default-568h@2x.png */; };
 		1AA851AC1AAF14C6002151C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA851AB1AAF14C6002151C6 /* main.m */; };
 		1AA851AF1AAF14C6002151C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA851AE1AAF14C6002151C6 /* AppDelegate.m */; };
 		1AA851B21AAF14C6002151C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA851B11AAF14C6002151C6 /* ViewController.m */; };
 		1AA851B51AAF14C6002151C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AA851B31AAF14C6002151C6 /* Main.storyboard */; };
 		1AA851B71AAF14C6002151C6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AA851B61AAF14C6002151C6 /* Images.xcassets */; };
 		1AA851BA1AAF14C6002151C6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AA851B81AAF14C6002151C6 /* LaunchScreen.xib */; };
-		1AA851C61AAF14C6002151C6 /* testWebView2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA851C51AAF14C6002151C6 /* testWebView2Tests.m */; };
+		1AA851C61AAF14C6002151C6 /* MyBrowserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA851C51AAF14C6002151C6 /* MyBrowserTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,7 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1AA851A61AAF14C6002151C6 /* testWebView2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testWebView2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A30CFE91AB1AE970018E1CA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1AA851A61AAF14C6002151C6 /* MyBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA851AA1AAF14C6002151C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AA851AB1AAF14C6002151C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1AA851AD1AAF14C6002151C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -37,9 +39,9 @@
 		1AA851B41AAF14C6002151C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1AA851B61AAF14C6002151C6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1AA851B91AAF14C6002151C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1AA851BF1AAF14C6002151C6 /* testWebView2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testWebView2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AA851BF1AAF14C6002151C6 /* MyBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA851C41AAF14C6002151C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AA851C51AAF14C6002151C6 /* testWebView2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testWebView2Tests.m; sourceTree = "<group>"; };
+		1AA851C51AAF14C6002151C6 /* MyBrowserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyBrowserTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +65,9 @@
 		1AA8519D1AAF14C6002151C6 = {
 			isa = PBXGroup;
 			children = (
-				1AA851A81AAF14C6002151C6 /* testWebView2 */,
-				1AA851C21AAF14C6002151C6 /* testWebView2Tests */,
+				1A30CFE91AB1AE970018E1CA /* Default-568h@2x.png */,
+				1AA851A81AAF14C6002151C6 /* MyBrowser */,
+				1AA851C21AAF14C6002151C6 /* MyBrowserTests */,
 				1AA851A71AAF14C6002151C6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,13 +75,13 @@
 		1AA851A71AAF14C6002151C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1AA851A61AAF14C6002151C6 /* testWebView2.app */,
-				1AA851BF1AAF14C6002151C6 /* testWebView2Tests.xctest */,
+				1AA851A61AAF14C6002151C6 /* MyBrowser.app */,
+				1AA851BF1AAF14C6002151C6 /* MyBrowserTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1AA851A81AAF14C6002151C6 /* testWebView2 */ = {
+		1AA851A81AAF14C6002151C6 /* MyBrowser */ = {
 			isa = PBXGroup;
 			children = (
 				1AA851AD1AAF14C6002151C6 /* AppDelegate.h */,
@@ -90,7 +93,7 @@
 				1AA851B81AAF14C6002151C6 /* LaunchScreen.xib */,
 				1AA851A91AAF14C6002151C6 /* Supporting Files */,
 			);
-			path = testWebView2;
+			path = MyBrowser;
 			sourceTree = "<group>";
 		};
 		1AA851A91AAF14C6002151C6 /* Supporting Files */ = {
@@ -102,13 +105,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1AA851C21AAF14C6002151C6 /* testWebView2Tests */ = {
+		1AA851C21AAF14C6002151C6 /* MyBrowserTests */ = {
 			isa = PBXGroup;
 			children = (
-				1AA851C51AAF14C6002151C6 /* testWebView2Tests.m */,
+				1AA851C51AAF14C6002151C6 /* MyBrowserTests.m */,
 				1AA851C31AAF14C6002151C6 /* Supporting Files */,
 			);
-			path = testWebView2Tests;
+			path = MyBrowserTests;
 			sourceTree = "<group>";
 		};
 		1AA851C31AAF14C6002151C6 /* Supporting Files */ = {
@@ -122,9 +125,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1AA851A51AAF14C6002151C6 /* testWebView2 */ = {
+		1AA851A51AAF14C6002151C6 /* MyBrowser */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AA851C91AAF14C6002151C6 /* Build configuration list for PBXNativeTarget "testWebView2" */;
+			buildConfigurationList = 1AA851C91AAF14C6002151C6 /* Build configuration list for PBXNativeTarget "MyBrowser" */;
 			buildPhases = (
 				1AA851A21AAF14C6002151C6 /* Sources */,
 				1AA851A31AAF14C6002151C6 /* Frameworks */,
@@ -134,14 +137,14 @@
 			);
 			dependencies = (
 			);
-			name = testWebView2;
+			name = MyBrowser;
 			productName = testWebView2;
-			productReference = 1AA851A61AAF14C6002151C6 /* testWebView2.app */;
+			productReference = 1AA851A61AAF14C6002151C6 /* MyBrowser.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1AA851BE1AAF14C6002151C6 /* testWebView2Tests */ = {
+		1AA851BE1AAF14C6002151C6 /* MyBrowserTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1AA851CC1AAF14C6002151C6 /* Build configuration list for PBXNativeTarget "testWebView2Tests" */;
+			buildConfigurationList = 1AA851CC1AAF14C6002151C6 /* Build configuration list for PBXNativeTarget "MyBrowserTests" */;
 			buildPhases = (
 				1AA851BB1AAF14C6002151C6 /* Sources */,
 				1AA851BC1AAF14C6002151C6 /* Frameworks */,
@@ -152,9 +155,9 @@
 			dependencies = (
 				1AA851C11AAF14C6002151C6 /* PBXTargetDependency */,
 			);
-			name = testWebView2Tests;
+			name = MyBrowserTests;
 			productName = testWebView2Tests;
-			productReference = 1AA851BF1AAF14C6002151C6 /* testWebView2Tests.xctest */;
+			productReference = 1AA851BF1AAF14C6002151C6 /* MyBrowserTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -168,6 +171,7 @@
 				TargetAttributes = {
 					1AA851A51AAF14C6002151C6 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 677UDL9ATV;
 					};
 					1AA851BE1AAF14C6002151C6 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -175,7 +179,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1AA851A11AAF14C6002151C6 /* Build configuration list for PBXProject "testWebView2" */;
+			buildConfigurationList = 1AA851A11AAF14C6002151C6 /* Build configuration list for PBXProject "MyBrowser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -188,8 +192,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1AA851A51AAF14C6002151C6 /* testWebView2 */,
-				1AA851BE1AAF14C6002151C6 /* testWebView2Tests */,
+				1AA851A51AAF14C6002151C6 /* MyBrowser */,
+				1AA851BE1AAF14C6002151C6 /* MyBrowserTests */,
 			);
 		};
 /* End PBXProject section */
@@ -200,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AA851B51AAF14C6002151C6 /* Main.storyboard in Resources */,
+				1A30CFEA1AB1AE970018E1CA /* Default-568h@2x.png in Resources */,
 				1AA851BA1AAF14C6002151C6 /* LaunchScreen.xib in Resources */,
 				1AA851B71AAF14C6002151C6 /* Images.xcassets in Resources */,
 			);
@@ -229,7 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA851C61AAF14C6002151C6 /* testWebView2Tests.m in Sources */,
+				1AA851C61AAF14C6002151C6 /* MyBrowserTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +243,7 @@
 /* Begin PBXTargetDependency section */
 		1AA851C11AAF14C6002151C6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1AA851A51AAF14C6002151C6 /* testWebView2 */;
+			target = 1AA851A51AAF14C6002151C6 /* MyBrowser */;
 			targetProxy = 1AA851C01AAF14C6002151C6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -343,9 +348,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = testWebView2/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/MyBrowser/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = MyBrowser;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -353,9 +363,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = testWebView2/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/MyBrowser/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = MyBrowser;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 			};
 			name = Release;
 		};
@@ -371,10 +387,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = testWebView2Tests/Info.plist;
+				INFOPLIST_FILE = MyBrowserTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testWebView2.app/testWebView2";
+				PRODUCT_NAME = MyBrowserTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBrowser.app/MyBrowser";
 			};
 			name = Debug;
 		};
@@ -386,17 +402,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = testWebView2Tests/Info.plist;
+				INFOPLIST_FILE = MyBrowserTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testWebView2.app/testWebView2";
+				PRODUCT_NAME = MyBrowserTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyBrowser.app/MyBrowser";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1AA851A11AAF14C6002151C6 /* Build configuration list for PBXProject "testWebView2" */ = {
+		1AA851A11AAF14C6002151C6 /* Build configuration list for PBXProject "MyBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AA851C71AAF14C6002151C6 /* Debug */,
@@ -405,21 +421,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1AA851C91AAF14C6002151C6 /* Build configuration list for PBXNativeTarget "testWebView2" */ = {
+		1AA851C91AAF14C6002151C6 /* Build configuration list for PBXNativeTarget "MyBrowser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AA851CA1AAF14C6002151C6 /* Debug */,
 				1AA851CB1AAF14C6002151C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1AA851CC1AAF14C6002151C6 /* Build configuration list for PBXNativeTarget "testWebView2Tests" */ = {
+		1AA851CC1AAF14C6002151C6 /* Build configuration list for PBXNativeTarget "MyBrowserTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1AA851CD1AAF14C6002151C6 /* Debug */,
 				1AA851CE1AAF14C6002151C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

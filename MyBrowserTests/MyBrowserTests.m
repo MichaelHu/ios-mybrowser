@@ -1,6 +1,6 @@
 //
-//  testWebView2Tests.m
-//  testWebView2Tests
+//  MyBrowserTests.m
+//  MyBrowserTests
 //
 //  Created by hudamin on 15/3/10.
 //  Copyright (c) 2015年 com.258i. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface testWebView2Tests : XCTestCase
+@interface MyBrowserTests : XCTestCase
 
 @end
 
-@implementation testWebView2Tests
+@implementation MyBrowserTests
 
 - (void)setUp {
     [super setUp];
