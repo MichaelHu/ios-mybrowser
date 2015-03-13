@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2AF1471AB2E452004160CA /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AF1451AB2E452004160CA /* SubViewController.m */; };
+		1A2AF1481AB2E452004160CA /* SubViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A2AF1461AB2E452004160CA /* SubViewController.xib */; };
 		1A30CFEA1AB1AE970018E1CA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A30CFE91AB1AE970018E1CA /* Default-568h@2x.png */; };
 		1AA851AC1AAF14C6002151C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA851AB1AAF14C6002151C6 /* main.m */; };
 		1AA851AF1AAF14C6002151C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AA851AE1AAF14C6002151C6 /* AppDelegate.m */; };
@@ -28,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A2AF1441AB2E452004160CA /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		1A2AF1451AB2E452004160CA /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
+		1A2AF1461AB2E452004160CA /* SubViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubViewController.xib; sourceTree = "<group>"; };
 		1A30CFE91AB1AE970018E1CA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		1AA851A61AAF14C6002151C6 /* MyBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA851AA1AAF14C6002151C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -86,6 +91,9 @@
 			children = (
 				1AA851AD1AAF14C6002151C6 /* AppDelegate.h */,
 				1AA851AE1AAF14C6002151C6 /* AppDelegate.m */,
+				1A2AF1441AB2E452004160CA /* SubViewController.h */,
+				1A2AF1451AB2E452004160CA /* SubViewController.m */,
+				1A2AF1461AB2E452004160CA /* SubViewController.xib */,
 				1AA851B01AAF14C6002151C6 /* ViewController.h */,
 				1AA851B11AAF14C6002151C6 /* ViewController.m */,
 				1AA851B31AAF14C6002151C6 /* Main.storyboard */,
@@ -207,6 +215,7 @@
 				1A30CFEA1AB1AE970018E1CA /* Default-568h@2x.png in Resources */,
 				1AA851BA1AAF14C6002151C6 /* LaunchScreen.xib in Resources */,
 				1AA851B71AAF14C6002151C6 /* Images.xcassets in Resources */,
+				1A2AF1481AB2E452004160CA /* SubViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +236,7 @@
 				1AA851B21AAF14C6002151C6 /* ViewController.m in Sources */,
 				1AA851AF1AAF14C6002151C6 /* AppDelegate.m in Sources */,
 				1AA851AC1AAF14C6002151C6 /* main.m in Sources */,
+				1A2AF1471AB2E452004160CA /* SubViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

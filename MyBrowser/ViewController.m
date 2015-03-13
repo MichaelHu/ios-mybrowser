@@ -6,14 +6,16 @@
 //  Copyright (c) 2015年 com.258i. All rights reserved.
 //
 
+#import "AppDelegate.h"
 #import "ViewController.h"
+#import "SubViewController.h"
 
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UITextField *textField;
-@property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (weak, nonatomic) IBOutlet UIButton *backBtn;
 @property (weak, nonatomic) IBOutlet UIButton *nextBtn;
+@property (weak, nonatomic) IBOutlet UIButton *infoBtn;
 
 @end
 
@@ -28,8 +30,19 @@
     
     [self.backBtn addTarget:self action:@selector(backBtnClick:) forControlEvents:UIControlEventTouchDown];
     [self.nextBtn addTarget:self action:@selector(nextBtnClick:) forControlEvents:UIControlEventTouchDown];
+    [self.infoBtn addTarget:self action:@selector(infoBtnClick:) forControlEvents:UIControlEventTouchDown];
     
     [self initRecognizers];
+    
+    /*
+    self.subViewController = nil;
+    UINavigationController * nav
+        = [[UINavigationController alloc] initWithRootViewController:self];
+    // ((AppDelegate *)[UIApplication sharedApplication].delegate).navigationController = nav;
+    
+    nav.delegate = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    [self.view.window setRootViewController:nav];
+     */
 }
 
 - (void)didReceiveMemoryWarning {
@@ -127,6 +140,20 @@
 
 - (IBAction)nextBtnClick:(id)sender {
     [self goForward];
+}
+
+- (IBAction)infoBtnClick:(id)sender {
+    // NSLog(@"%d", self.view.subviews.count);
+    // NSLog(@"infoBtnClick");
+    //
+    if (!self.subViewController) {
+        self.subViewController = [[SubViewController alloc] initWithNibName:@"SubViewController" bundle:nil];
+    }
+    
+    [self.navigationController pushViewController:self.subViewController animated:YES];
+    
+    // [self.view insertSubview:self.subViewController.view atIndex:self.view.subviews.count];
+    
 }
 
 

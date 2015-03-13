@@ -11,6 +11,8 @@
 @interface ViewController : UIViewController <UITextFieldDelegate, UIWebViewDelegate>
 
 @property NSString* text;
+@property UIViewController *subViewController;
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
 
 @end
 

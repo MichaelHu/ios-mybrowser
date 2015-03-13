@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="1Qp-HC-Kqs">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
     <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="CAa-t3-rSR">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="1Qp-HC-Kqs" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="BD5-JK-ziB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="3z8-wF-bpJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wLb-bM-wUH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-748" y="-540"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
@@ -13,7 +29,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="http://m.baidu.com/news" minimumFontSize="17" clearButtonMode="whileEditing" id="ceh-TZ-ksx">
-                                <rect key="frame" x="5" y="28" width="275" height="18"/>
+                                <rect key="frame" x="5" y="28" width="248" height="18"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
@@ -30,7 +46,7 @@
                                 <gestureRecognizers/>
                             </webView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="O00-ac-FKx">
-                                <rect key="frame" x="286" y="28" width="34" height="18"/>
+                                <rect key="frame" x="251" y="28" width="33" height="18"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Go">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -59,11 +75,20 @@
                                     <color key="titleShadowColor" red="0.77978746430000001" green="0.78628077649999994" blue="0.77063552690000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8E0-W7-K2w">
+                                <rect key="frame" x="287" y="22" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="...">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="AYL-GW-Knb"/>
                     <connections>
                         <outlet property="backBtn" destination="zdG-H9-xzh" id="dmm-Yj-D7E"/>
+                        <outlet property="infoBtn" destination="8E0-W7-K2w" id="AOe-xG-ann"/>
                         <outlet property="nextBtn" destination="FAM-c7-Km5" id="Ux6-KK-N4D"/>
                         <outlet property="textField" destination="ceh-TZ-ksx" id="dhQ-a9-ZfN"/>
                         <outlet property="webView" destination="vqo-dU-8dl" id="ayp-yg-jvo"/>
@@ -71,7 +96,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="22" y="-447"/>
+            <point key="canvasLocation" x="-252" y="-540"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
