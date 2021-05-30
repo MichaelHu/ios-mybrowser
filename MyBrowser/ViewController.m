@@ -143,7 +143,7 @@
 }
 
 - (IBAction)infoBtnClick:(id)sender {
-    // NSLog(@"%d", self.view.subviews.count);
+    // NSLog(@"%u", (unsigned)self.view.subviews.count);
     // NSLog(@"infoBtnClick");
     //
     if (!self.subViewController) {

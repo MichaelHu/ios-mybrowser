@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyBrowser/SubViewController.m"
-            timestampString = "447957492.01082"
+            timestampString = "448799142.966819"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>

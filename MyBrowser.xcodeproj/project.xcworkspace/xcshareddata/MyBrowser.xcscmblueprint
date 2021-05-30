@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "23DC9979FE321F061A574EF9A2DC5DBE3862C4DD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "cf3f063f-483d-4db6-ba8b-6e9a1aae5a1a++2118" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "cf3f063f-483d-4db6-ba8b-6e9a1aae5a1a++2118" : 0,
+    "23DC9979FE321F061A574EF9A2DC5DBE3862C4DD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2B145E2F-6E3B-463E-A046-D2B1C032C317",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "cf3f063f-483d-4db6-ba8b-6e9a1aae5a1a++2118" : "",
+    "23DC9979FE321F061A574EF9A2DC5DBE3862C4DD" : "ios-mybrowser"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyBrowser",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyBrowser.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:MichaelHu\/ios-mybrowser.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "23DC9979FE321F061A574EF9A2DC5DBE3862C4DD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/tc-apptest-img08.vm.baidu.com:8021\/svn\/repos\/projects",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "cf3f063f-483d-4db6-ba8b-6e9a1aae5a1a++2118"
+    }
+  ]
+}

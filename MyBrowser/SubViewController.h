@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SubViewController : UIViewController
+@interface SubViewController : UIViewController <UITextFieldDelegate> {
+
+    NSString *jsString;
+    
+}
+
+@property (retain) NSString *jsString;
 
 @end
